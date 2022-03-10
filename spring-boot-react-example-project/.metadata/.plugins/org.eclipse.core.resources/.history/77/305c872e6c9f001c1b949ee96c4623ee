@@ -1,0 +1,13 @@
+package com.example.java.project.service;
+
+import com.example.java.project.repository.UserRepository;
+
+public class UserManager {
+
+	private UserRepository userRepository;
+
+	public UserManager(UserRepository userRepository) {
+		this.userRepository = userRepository;
+	}
+	
+}

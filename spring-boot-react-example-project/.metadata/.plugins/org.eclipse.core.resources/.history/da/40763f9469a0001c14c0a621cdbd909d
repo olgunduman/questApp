@@ -1,0 +1,12 @@
+package com.example.java.project.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import com.example.java.project.entity.Like;
+
+public interface LikeService {
+
+	List<Like> getAllLikesWithParam(Optional<Long> userId, Optional<Long> postId);
+
+}

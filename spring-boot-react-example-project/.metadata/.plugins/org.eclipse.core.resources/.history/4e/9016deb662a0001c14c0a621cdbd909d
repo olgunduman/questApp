@@ -1,0 +1,12 @@
+package com.example.java.project.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import com.example.java.project.entity.Comment;
+
+public interface CommentService {
+
+	List<Comment> getAllCommentsWithParam(Optional<Long> userId, Optional<Long> postId);
+
+}
